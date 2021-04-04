@@ -23,9 +23,9 @@ end_date = input('please enter the end date(like 20210103):\n')
 def history_k_line():
 # {{{
     df = pro.daily(ts_code=stock_code,start_date=start_date,end_date=end_date)
-    df2 = df.sort_values(by='trade_date', ascending=True)
-    df2.to_csv('~/make_money/date.csv')
-    plt.plot(df2['trade_date'],df2['close'])
+    df = df.sort_values(by='trade_date', ascending=True)
+    df.to_csv('~/make_money_github/data/stock1.csv')
+    plt.plot(df['trade_date'],df['close'])
     plt.xticks(rotation=90)
     
     plt.show()
