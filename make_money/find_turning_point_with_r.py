@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 ============================================================================
- File:	      find_turning_point.py
- Description: modify the vel model 
+ File:	      find_turning_point_with_r.py
+ Description: use correlation to find turning point 
  Author:      stone
- date:        2021.04.02
+ date:        2021.04.10
  Website:     https://github.com/stone0312/make_money_github.git
  Version:     1.0
- Note:        
+ Note:        can not be used directly
 
 ============================================================================
 """
